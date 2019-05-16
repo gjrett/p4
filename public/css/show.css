@@ -1,0 +1,51 @@
+section#main {
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Create a center columns that floats next to each other */
+.column_center {
+    width: 60%;
+    padding: 5px;
+    height: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th {
+    text-align: center;
+}
+td {
+    width: 10%;
+    text-align: center;
+}
+input[type=number]{
+    border: none;
+    width: 50px;
+    text-align: center;
+}
+input[type=submit] {
+    width: 4em;
+    height: 1.5em;
+}
+
+.centered {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -11,9 +11,50 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+/*
+ * Misc "static" pages
+ */
+Route::view('/', 'welcome');
+Route::view('/login', 'login');
+Route::view('/about', 'about');
+Route::view('/contact', 'contact');
+
+/*
+ * Wine forms
+ */
+Route::get('/wine/create', 'WineController@create');
+Route::get('/wine/edit', 'WineController@edit');
+Route::post('/wine/process', 'WineController@searchProcess');
+Route::get('/wine/show', 'WineController@show');
+Route::get('/wine/store', 'WineController@store');
+
+# Show the search form
+Route::get('/wine/search', 'WineController@search');
+
+
+Route::get('/wine', 'WineController@index');
+
+# Update functionality
+# Show the form to edit a specific book
+Route::get('/wines/{id}/edit', 'WineController@edit');
+
+# Process the form to edit a specific book
+Route::put('/wines/{id}', 'WineController@update');
+
+# DELETE
+# Show the page to confirm deletion of a book
+Route::get('/wines/{id}/delete', 'WineController@delete');
+
+# Process the deletion of a book
+Route::delete('/wines/{id}', 'WineController@destroy');
+
+
+/**
+ * Practice
+ */
+Route::any('/practice/{n?}', 'PracticeController@index');
+
 Route::get('/debug', function () {
 
     $debug = [
@@ -39,3 +80,4 @@ Route::get('/debug', function () {
 
     dump($debug);
 });
+

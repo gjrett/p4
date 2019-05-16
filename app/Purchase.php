@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Redwine extends Model
+class Purchase extends Model
 {
     //
 }

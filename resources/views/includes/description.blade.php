@@ -1,0 +1,1 @@
+My Wine List is an app to store your favorite wines and information about them.<br><a href='https://dwa15.com'>CSCI E-15 Dynamic Web Applications</a>.

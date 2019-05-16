@@ -2,6 +2,19 @@
 
 return [
 
+
+    'githubUrl' => 'https://github.com/gjrett/p4',
+
+    'nav' => [
+        // URL => Link label
+        '' => 'Home',
+        'wine/show' => 'Wines',
+        'wine/create' => 'Add a Wine',
+        'wine/search' => 'Search',
+        'about' => 'About',
+        'contact' => 'Contact',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -13,7 +26,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'My Wine List',
 
     /*
     |--------------------------------------------------------------------------
