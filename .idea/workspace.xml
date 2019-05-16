@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08e19d09-2caf-4ba6-b148-1e847197a007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/create.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/show.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/wine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/wine/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/wine/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/wine/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/wine/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/wine/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Redwine.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Whitewine.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_22_022119_create_redwines_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_22_022119_create_wines_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_22_023715_create_whitewines_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/RedwinesTableSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/WhitewinesTableSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="08e19d09-2caf-4ba6-b148-1e847197a007" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +50,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WineController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+            <state relative-caret-position="319">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_15_210559_create_tag_wine_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,24 +81,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/wine/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="17" lean-forward="true" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/wine/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -304,6 +278,17 @@
             <path>
               <item name="p4" type="b2602c69:ProjectViewProjectNode" />
               <item name="p4" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p4" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p4" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -368,12 +353,12 @@
       <workItem from="1556420593928" duration="595000" />
       <workItem from="1556674917256" duration="590000" />
       <workItem from="1557018145423" duration="590000" />
-      <workItem from="1557107571196" duration="196691000" />
+      <workItem from="1557107571196" duration="197334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210135000" />
+    <option name="totallyTimeSpent" value="210778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +371,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="728" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.2690513" />
       <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.2690513" />
@@ -490,9 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_09_022242_create_vineyards_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -546,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_15_210559_create_tag_wine_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -706,10 +680,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WineController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+        <state relative-caret-position="319">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_15_210559_create_tag_wine_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
