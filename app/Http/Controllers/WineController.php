@@ -79,7 +79,7 @@ class WineController extends Controller
         $searchTerm = $request->searchTerm;
 
         $searchResults = Wine::where('name', $searchTerm)->get();
-        }
+
 
         return redirect('/wines/search')->with([
             'searchTerm' => $request->searchTerm,
@@ -92,16 +92,18 @@ class WineController extends Controller
      */
     public function create()
     {
-        $vineyards = Vineyard::getForDropdown();
+        $wine = $request->input('wine', '');
 
-        $tags = Tag::getForCheckboxes();
+        if (!$wine) {
+            return redirect('/create')->with(['alert' => 'The wine you were looking for was not found.']);
+        } else {
 
-        return view('wines.create')->with([
-            'vineyardss' => $vineyardss,
-            'tags' => $tags
-        ]);
+            return redirect('/wines/store')->->with([
+                'wine' => $wine
+            ]);
+                
+        }
     }
-
     /*
      * POST /wines
      */
@@ -113,7 +115,7 @@ class WineController extends Controller
             'vineyard_id' => 'required',
             'year' => 'required|digits:4',
             'type' => 'required',
-            'purchase_id' => 'required'
+
         ]);
 
         # Note: If validation fails, it will redirect the visitor back to the form page
